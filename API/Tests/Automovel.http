@@ -1,0 +1,27 @@
+###
+POST https://localhost:5001/api/automovel/create
+Content-Type: application/json
+
+{
+    "Marca" : "Chevrolet",
+    "Modelo" : "Corsa"
+}
+
+###
+GET https://localhost:5001/api/automovel/list
+
+###
+GET https://localhost:5001/api/automovel/getbyid/1
+
+###
+DELETE https://localhost:5001/api/automovel/delete/Corsa
+
+###
+PUT https://localhost:5001/api/automovel/update
+Content-Type: application/json
+
+{
+    "Id" : 5,
+    "Marca" : "Ford",
+    "Modelo" : "Ka"
+}
